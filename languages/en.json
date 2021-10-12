@@ -1,0 +1,253 @@
+{
+    "nav": {
+        "signupin": "Sign up/in",
+        "back": "Back",
+        "signin": "Sign in",
+        "signup": "Sign up",
+        "user": "User"
+    },
+    "landing": {
+        "hero": {
+            "title": "Bedrock servers, <span class=\"green\">for you</span>",
+            "description": "Get started for free and create your personal Minecraft Bedrock Server. 5-minute setup. Guaranteed.",
+            "buttons": {
+                "getstarted": "Get started",
+                "learnmore": "Learn more"
+            }
+        },
+        "faq": {
+            "title": "Frequently Asked Questions",
+            "questions": {
+                "price": {
+                    "title": "How much does a Minecraft Bedrock server cost?",
+                    "description": "Bedocker allows you to get started with your own Minecraft Bedrock server free of charge. There are no hidden fees or recurring payments necessary to get up and running. Sign up now & have your own personal server ready in 5 minutes."
+                },
+                "features": {
+                    "title": "What can I do with my server?",
+                    "description": "Your server is fully customizable — that means you can change any settings you want to change. That includes the maximum players, the gamemode, seed, whitelist etc."
+                },
+                "uptime": {
+                    "title": "Does my server stay online?",
+                    "description": "To spare resources (memory and cores), inactive servers are stopped after six hours. We don't have a queue, so once you want to play again, it takes less than a minute to start it back up again."
+                },
+                "players": {
+                    "title": "How many people can play on my server?",
+                    "description": "The limit of how many people can join your server is up to you. A server generally runs performantly with 5-10 players online at once."
+                }
+            }
+        },
+        "cta": {
+            "title": "Let's get you onboard",
+            "description": "Our service will get your own Minecraft Bedrock server up and running in less than 5 minutes. If you don't like it, you can stop your server and close your account at any time.",
+            "buttons": {
+                "signup": "Sign up"
+            }
+        }
+    },
+    "signup": {
+        "title": "Sign up",
+        "email": {
+            "title": "Email",
+            "placeholder": "example@example.com"
+        },
+        "password": {
+            "title": "Password",
+            "placeholder": "8+ characters"
+        },
+        "switch": {
+            "title": "I agree to the <a href=\"/legal/tos\">Terms of Service</a> and <a href=\"/tos/privacy\">Privacy Policy</a>"
+        },
+        "buttons": {
+            "signup": "Sign up"
+        },
+        "feedback": {
+            "duplicate": "Account with this email already exists",
+            "ratelimited": "You've been ratelimited."
+        }
+    },
+    "signin": {
+        "title": "Sign in",
+        "email": {
+            "title": "Email",
+            "placeholder": "example@example.com"
+        },
+        "password": {
+            "title": "Password",
+            "placeholder": "8+ characters"
+        },
+        "buttons": {
+            "signin": "Sign in"
+        }
+    },
+    "setup": {
+        "title": "Setup",
+        "description": "Welcome to Bedocker! These default options will work for most people. Look through them and change them to your needs, and once you're done, click set up.",
+        "name": {
+            "title": "Name",
+            "placeholder": "A Bedocker Server"
+        },
+        "version": {
+            "title": "Version",
+            "options": {
+                "latest": "Latest",
+                "previous": "Previous"
+            }
+        },
+        "defaultGamemode": {
+            "title": "Default gamemode",
+            "options": {
+                "survival": "Survival",
+                "creative": "Creative",
+                "adventure": "Adventure"
+            }
+        },
+        "difficulty": {
+            "title": "Difficulty",
+            "options": {
+                "peaceful": "Peaceful",
+                "easy": "Easy",
+                "normal": "Normal",
+                "hard": "Hard"
+            }
+        },
+        "levelType": {
+            "title": "Level (world) type",
+            "options": {
+                "default": "Default",
+                "flat": "Flat",
+                "legacy": "Legacy"
+            },
+            "note": "Requires world regeneration to go into effect"
+        },
+        "maxPlayers": {
+            "title": "Max players"
+        },
+        "whitelist": {
+            "title": "Whitelist",
+            "placeholder": "Player1, Player2, Player3",
+            "note": "Names seperated with comma (,)"
+        },
+        "playerIdleTimeout": {
+            "title": "Player idle timeout",
+            "note": "Number of minutes a player can be inactive before being kicked; 0 = disabled"
+        },
+        "levelSeed":  {
+            "title": "Level (world) seed",
+            "note": {
+                "settings": "Requires world regeneration to go into effect; leave empty for random seed",
+                "setup": "Leave empty for random seed"
+            }
+        },
+        "defaultPlayerPermissionLevel": {
+            "title": "Default player permission level",
+            "options": {
+                "visitor": "Visitor",
+                "member": "Member",
+                "operator": "Operator"
+            }
+        },
+        "whitelistEnabled": {
+            "title": "Whitelist enabled"
+        },
+        "correctPlayerMovement": {
+            "title": "Correct player movement"
+        },
+        "allowCheats": {
+            "title": "Allow cheats (commands)"
+        },
+        "onlineMode": {
+            "title": "Online mode",
+            "note": "While disabling this option allows you to play on your server without having a Minecraft/Mojang account, it exposes your server to threats, such as users bypassing your whitelist."
+        },
+        "buttons": {
+            "setup": "Set up"
+        }
+    },
+    "user": {
+        "title": "User",
+        "email": {
+            "title": "Email",
+            "placeholder": "example@example.com"
+        },
+        "currentPassword": {
+            "title": "Current password"
+        },
+        "newPassword": {
+            "title": "New password",
+            "placeholder": "8+ characters",
+            "note": "Optional; only specify this if you want to change your password"
+        },
+        "buttons": {
+            "update": "Update",
+            "signout": "Sign out"
+        }
+    },
+    "server": {
+        "nav": {
+            "overview": "Overview",
+            "console": "Console",
+            "settings": "Settings"
+        },
+        "status": {
+            "online": "Online",
+            "offline": "Offline",
+            "starting": "Starting"
+        },
+        "index": {
+            "title": "Overview",
+            "table": {
+                "address": "IP Address (Hostname)",
+                "port": "Port",
+                "players": "Players",
+                "version": {
+                    "title": "Version",
+                    "options": {
+                        "latest": "Latest",
+                        "previous": "Previous"
+                    }
+                },
+                "gamemode": {
+                    "title": "Gamemode",
+                    "options": {
+                        "survival": "Survival",
+                        "creative": "Creative",
+                        "adventure": "Adventure"
+                    }
+                }
+            },
+            "buttons": {
+                "start": "Start",
+                "stop": "Stop",
+                "Restart": "Restart"
+            }
+        },
+        "console": {
+            "title": "Console",
+            "buttons": {
+                "run": "Run command"
+            },
+            "messages": {
+                "offline": "[ERROR] Server is not running"
+            }
+        },
+        "settings": {
+            "title": "Settings",
+            "buttons": {
+                "save": "Save changes",
+                "delete": {
+                    "1": "Delete server",
+                    "2": "Are you sure?",
+                    "3": "Are you <i>really</i> sure?"
+                }
+            },
+            "note": "A restart is necessary for most changes to go into effect."
+        }
+    },
+    "footer": {
+        "links": {
+            "tos": "Terms of Service",
+            "privacy": "Privacy Policy"
+        },
+        "copyright": "(c) 2021 Bedocker. All rights reserved."
+    }
+}
