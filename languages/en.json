@@ -4,7 +4,8 @@
         "back": "Back",
         "signin": "Sign in",
         "signup": "Sign up",
-        "user": "User"
+        "user": "User",
+        "dashboard": "Dashboard"
     },
     "landing": {
         "hero": {
@@ -61,7 +62,7 @@
             "signup": "Sign up"
         },
         "feedback": {
-            "duplicate": "Account with this email already exists",
+            "duplicate": "Account with this email already exists.",
             "ratelimited": "You've been ratelimited."
         }
     },
@@ -194,7 +195,6 @@
             "starting": "Starting"
         },
         "index": {
-            "title": "Overview",
             "table": {
                 "address": "IP Address (Hostname)",
                 "port": "Port",
@@ -218,11 +218,10 @@
             "buttons": {
                 "start": "Start",
                 "stop": "Stop",
-                "Restart": "Restart"
+                "restart": "Restart"
             }
         },
         "console": {
-            "title": "Console",
             "buttons": {
                 "run": "Run command"
             },
@@ -231,7 +230,6 @@
             }
         },
         "settings": {
-            "title": "Settings",
             "buttons": {
                 "save": "Save changes",
                 "delete": {
@@ -240,8 +238,15 @@
                     "3": "Are you <i>really</i> sure?"
                 }
             },
+            "feedback": {
+                "saved": "Changes saved"
+            },
             "note": "A restart is necessary for most changes to go into effect."
         }
+    },
+    "404": {
+        "title": "404.",
+        "description": "The page you were looking for could not be found. It might have been removed, renamed, or did not exist in the first place.<br><br>Keep on digging!"
     },
     "footer": {
         "links": {
