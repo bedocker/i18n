@@ -56,7 +56,7 @@
             "placeholder": "8+ characters"
         },
         "switch": {
-            "title": "I agree to the <a href=\"/legal/tos\">Terms of Service</a> and <a href=\"/tos/privacy\">Privacy Policy</a>"
+            "title": "I agree to the <a href=\"/legal/tos\">Terms of Service</a> and <a href=\"/legal/privacy\">Privacy Policy</a>"
         },
         "buttons": {
             "signup": "Sign up"
