@@ -63,7 +63,9 @@
         },
         "feedback": {
             "duplicate": "Account with this email already exists.",
-            "ratelimited": "You've been ratelimited."
+            "ratelimited": "Too many requests, please try again later.",
+            "invalidEmail": "Invalid email.",
+            "invalidPassword": "Invalid password."
         }
     },
     "signin": {
@@ -78,6 +80,9 @@
         },
         "buttons": {
             "signin": "Sign in"
+        },
+        "feedback": {
+            "invalidEmailOrPassword": "Invalid email or password"
         }
     },
     "setup": {
@@ -251,7 +256,8 @@
     "footer": {
         "links": {
             "tos": "Terms of Service",
-            "privacy": "Privacy Policy"
+            "privacy": "Privacy Policy",
+            "support": "Support"
         },
         "copyright": "(c) 2021 Bedocker. All rights reserved."
     }
