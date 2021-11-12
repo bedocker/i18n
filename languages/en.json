@@ -218,7 +218,8 @@
                         "creative": "Creative",
                         "adventure": "Adventure"
                     }
-                }
+                },
+                "pausesIn": "Pauses in"
             },
             "buttons": {
                 "start": "Start",
@@ -237,6 +238,7 @@
         "settings": {
             "buttons": {
                 "save": "Save changes",
+                "importWorld": "Import world",
                 "delete": {
                     "1": "Delete server",
                     "2": "Are you sure?",
@@ -247,6 +249,18 @@
                 "saved": "Changes saved"
             },
             "note": "A restart is necessary for most changes to go into effect."
+        },
+        "importWorld": {
+            "title": "Import world",
+            "worldFile": "World file",
+            "feedback": {
+                "imported": "Imported",
+                "notOffline": "Server must be offline",
+                "format": "Invalid world (invalid or unsupported zip format)",
+                "levelnameMissing": "Invalid world (levelname.txt missing)",
+                "specialCharacters": "Invalid world (level name must not consist of only special characters)"
+            },
+            "note": "This is irreversible and will overwrite your world!"
         }
     },
     "404": {
