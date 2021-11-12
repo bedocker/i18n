@@ -1,0 +1,278 @@
+{
+    "nav": {
+        "signupin": "Registrieren",
+        "back": "Zurück",
+        "signin": "Anmelden",
+        "signup": "Registrieren",
+        "user": "Nutzer",
+        "dashboard": "Dashboard"
+    },
+    "landing": {
+        "hero": {
+            "title": "Bedrock Server, <span class=\"green\">für dich</span>",
+            "description": "Starte kostenlos und erstelle deinen persönlichen Minecraft Bedrock Server. Eingerichtet in 5 Minuten. Garantiert.",
+            "buttons": {
+                "getstarted": "Loslegen",
+                "learnmore": "Mehr erfahren"
+            }
+        },
+        "faq": {
+            "title": "Häufig gestellte Fragen",
+            "questions": {
+                "price": {
+                    "title": "Wie viel kostet ein Minecraft Bedrock Server?",
+                    "description": "Mit Bedocker kannst du kostenlos mit deinem eigenen Minecraft Bedrock Server loslegen. Es sind keine versteckten Gebühren oder wiederkehrende Zahlungen nötig, um loszulegen. Melde dich jetzt an und habe in 5 Minuten deinen eigenen Server bereit."
+                },
+                "features": {
+                    "title": "Was kann ich mit meinem Server machen?",
+                    "description": "Dein Server ist vollständig anpassbar — das bedeutet, dass du alle Einstellungen ändern kannst, die du ändern möchtest. Dazu gehören die maximale Spielerzahl, der Spielmodus, Seed, Whitelist usw."
+                },
+                "uptime": {
+                    "title": "Bleibt mein Server online?",
+                    "description": "Um Ressourcen (Arbeitsspeicher und CPU) zu schonen, werden inaktive Server nach sechs Stunden gestoppt. Wir haben keine Warteschlange, d.h. wenn du wieder spielen willst, dauert es weniger als eine Minute, um den Server wieder zu starten."
+                },
+                "players": {
+                    "title": "Wie viele Leute können auf meinem Server spielen?",
+                    "description": "Die Anzahl der Personen, die auf deinem Server spielen können, ist dir überlassen. Ein Server läuft in der Regel gut, wenn 5-10 Spieler gleichzeitig online sind."
+                }
+            }
+        },
+        "cta": {
+            "title": "Worauf wartest du?",
+            "description": "Unser Dienst bringt deinen eigenen Minecraft Bedrock Server in weniger als 5 Minuten zum Laufen. Wenn er dir nicht gefällt, kannst du deinen Server jederzeit stoppen und dein Konto schließen.",
+            "buttons": {
+                "signup": "Registrieren"
+            }
+        }
+    },
+    "signup": {
+        "title": "Registrieren",
+        "email": {
+            "title": "Email",
+            "placeholder": "beispiel@beispiel.de"
+        },
+        "password": {
+            "title": "Password",
+            "placeholder": "8+ Zeichen"
+        },
+        "switch": {
+            "title": "Ich stimme der <a href=\"/legal/tos\">AGB</a> und der <a href=\"/tos/privacy\">Datenschutzrichtlinie</a> zu"
+        },
+        "buttons": {
+            "signup": "Registrieren"
+        },
+        "feedback": {
+            "duplicate": "Ein Konto mit dieser E-Mail existiert bereits.",
+            "ratelimited": "Deine Aktionsrate wird limitiert.",
+            "invalidEmail": "Ungültige E-Mail.",
+            "invalidPassword": "Ungültiges Passwort."
+        }
+    },
+    "signin": {
+        "title": "Anmelden",
+        "email": {
+            "title": "Email",
+            "placeholder": "beispiel@beispiel.de"
+        },
+        "password": {
+            "title": "Password",
+            "placeholder": "8+ Zeichen"
+        },
+        "buttons": {
+            "signin": "Anmelden"
+        },
+        "feedback": {
+            "invalidEmailOrPassword": "Ungültige E-Mail oder ungültiges Passwort"
+        }
+    },
+    "setup": {
+        "title": "Einrichtung",
+        "description": "Willkommen bei Bedocker! Diese Standardoptionen werden für die meisten Leute funktionieren. Sieh sie dir an und passe sie deinen Bedürfnissen an. Wenn du fertig bist, klicke auf Einrichten.",
+        "name": {
+            "title": "Name",
+            "placeholder": "Ein Bedocker Server"
+        },
+        "version": {
+            "title": "Version",
+            "options": {
+                "latest": "Neueste",
+                "previous": "Vorherige"
+            }
+        },
+        "defaultGamemode": {
+            "title": "Standard-Spielmodus",
+            "options": {
+                "survival": "Überlebensmodus",
+                "creative": "Kreativmodus",
+                "adventure": "Abenteuermodus"
+            }
+        },
+        "difficulty": {
+            "title": "Schwierigkeitsgrad",
+            "options": {
+                "peaceful": "Friedlich",
+                "easy": "Einfach",
+                "normal": "Normal",
+                "hard": "Schwer"
+            }
+        },
+        "levelType": {
+            "title": "Level (Welt)-Typ",
+            "options": {
+                "default": "Standard",
+                "flat": "Flach",
+                "legacy": "Alt"
+            },
+            "note": "Erfordert Weltregeneration, um in Kraft zu treten"
+        },
+        "maxPlayers": {
+            "title": "Max Spieler"
+        },
+        "whitelist": {
+            "title": "Gästeliste",
+            "placeholder": "Spieler1, Spieler2, Spieler3",
+            "note": "Namen durch Komma (,) getrennt"
+        },
+        "playerIdleTimeout": {
+            "title": "Zeitüberschreitung für inaktive Spieler",
+            "note": "Anzahl der Minuten, die ein Spieler inaktiv sein kann, bevor er gekickt wird; 0 = deaktiviert"
+        },
+        "levelSeed": {
+            "title": "Level (Welt)-Seed",
+            "note": {
+                "settings": "Erfordert Weltregeneration, um in Kraft zu treten; leer lassen für einen zufälligen Seed",
+                "setup": "Leer lassen für einen zufälligen Seed"
+            }
+        },
+        "defaultPlayerPermissionLevel": {
+            "title": "Standardmäßige Spielerlaubnisstufe",
+            "options": {
+                "visitor": "Besucher",
+                "member": "Mitglied",
+                "operator": "Operator"
+            }
+        },
+        "whitelistEnabled": {
+            "title": "Gästeliste aktiviert"
+        },
+        "correctPlayerMovement": {
+            "title": "Spielerbewegung korrigieren"
+        },
+        "allowCheats": {
+            "title": "Cheats (Befehle) zulassen"
+        },
+        "onlineMode": {
+            "title": "Online-Mode",
+            "note": "Wenn du diese Option deaktivierst, kannst du zwar auf deinem Server spielen, ohne ein Minecraft/Mojang-Konto zu haben, aber dein Server ist dadurch Gefahren ausgesetzt, z. B. durch Benutzer, die deine Whitelist umgehen."
+        },
+        "buttons": {
+            "setup": "Einrichten"
+        }
+    },
+    "user": {
+        "title": "Nutzer",
+        "email": {
+            "title": "Email",
+            "placeholder": "beispiel@beispiel.de"
+        },
+        "currentPassword": {
+            "title": "Derzeitiges Passwort"
+        },
+        "newPassword": {
+            "title": "Neues Passwort",
+            "placeholder": "8+ Zeichen",
+            "note": "Optional; gib dies nur an, wenn du dein Passwort ändern möchtest"
+        },
+        "buttons": {
+            "update": "Speichern",
+            "signout": "Abmelden"
+        }
+    },
+    "server": {
+        "nav": {
+            "overview": "Übersicht",
+            "console": "Konsole",
+            "settings": "Einstellungen"
+        },
+        "status": {
+            "online": "Online",
+            "offline": "Offline",
+            "starting": "Startet"
+        },
+        "index": {
+            "table": {
+                "address": "IP-Adresse (Hostname)",
+                "port": "Port",
+                "players": "Spieler",
+                "version": {
+                    "title": "Version",
+                    "options": {
+                        "latest": "Neueste",
+                        "previous": "Vorherige"
+                    }
+                },
+                "gamemode": {
+                    "title": "Spielmodus",
+                    "options": {
+                        "survival": "Überlebensmodus",
+                        "creative": "Kreativmodus",
+                        "adventure": "Abenteuermodus"
+                    }
+                },
+                "pausesIn": "Wird pausiert in"
+            },
+            "buttons": {
+                "start": "Starten",
+                "stop": "Stoppen",
+                "restart": "Neu starten"
+            }
+        },
+        "console": {
+            "buttons": {
+                "run": "Befehl ausführen"
+            },
+            "messages": {
+                "offline": "[ERROR] Server ist offline"
+            }
+        },
+        "settings": {
+            "buttons": {
+                "save": "Änderungen speichern",
+                "importWorld": "Welt importieren",
+                "delete": {
+                    "1": "Server löschen",
+                    "2": "Bist du dir sicher?",
+                    "3": "Bist du dir <i>wirklich</i> sicher?"
+                }
+            },
+            "feedback": {
+                "saved": "Änderungen gespeichert"
+            },
+            "note": "Damit die meisten Änderungen in Kraft treten, ist ein Neustart erforderlich."
+        },
+        "importWorld": {
+            "title": "Welt importieren",
+            "worldFile": "Weltdatei",
+            "feedback": {
+                "imported": "Importiert",
+                "notOffline": "Server muss offline sein",
+                "format": "Ungültige Welt (ungültiges oder nicht unterstütztes Zip-Format)",
+                "levelnameMissing": "Ungültige Welt (levelname.txt fehlt)",
+                "specialCharacters": "Ungültige Welt (Weltname darf nicht nur aus Sonderzeichen bestehen)"
+            },
+            "note": "Dies ist unumkehrbar und wird deine Welt überschreiben!"
+        }
+    },
+    "404": {
+        "title": "404.",
+        "description": "Die Seite, nach der du gesucht hast, konnte nicht gefunden werden. Möglicherweise wurde sie entfernt, umbennant oder existierte gar nicht.<br><br>Grab weiter!"
+    },
+    "footer": {
+        "links": {
+            "tos": "AGB",
+            "privacy": "Datenschutzrichtlinie",
+            "support": "Support"
+        },
+        "copyright": "(c) 2021 Bedocker. Alle Rechte vorbehalten."
+    }
+}
