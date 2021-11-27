@@ -1,4 +1,22 @@
 {
+    "titles": {
+        "index": "Bedocker | Minecraft Bedrock Server Hosting",
+        "signin": "Sign in | Bedocker",
+        "signup": "Sign up | Bedocker",
+        "user": "User | Bedocker",
+        "404": "404 | Bedocker",
+        "legal": {
+            "privacy": "Privacy Policy | Bedocker",
+            "tos": "Terms of Service | Bedocker"
+        },
+        "server": {
+            "index": "Server Overview | Bedocker",
+            "console": "Server Console | Bedocker",
+            "settings": "Server Settings | Bedocker",
+            "importWorld": "Import world | Bedocker",
+            "setup": "Server Setup | Bedocker"
+        }
+    },
     "nav": {
         "signupin": "Sign up/in",
         "back": "Back",
@@ -9,11 +27,24 @@
     },
     "landing": {
         "hero": {
-            "title": "Bedrock servers, <span class=\"green\">for you</span>",
+            "title": "Your world, <span class=\"green\">always online</span>",
             "description": "Get started for free and create your personal Minecraft Bedrock Server. 5-minute setup. Guaranteed.",
             "buttons": {
-                "getstarted": "Get started",
-                "learnmore": "Learn more"
+                "createServer": "Create my server"
+            }
+        },
+        "features": {
+            "setup": {
+                "title": "Quick setup",
+                "description": "We will deploy your server within minutes of you creating it."
+            },
+            "speed": {
+                "title": "Lightning fast",
+                "description": "Lag is an issue from the past with our top of the line server hardware."
+            },
+            "panel": {
+                "title": "Easy panel",
+                "description": "Intuitive and simple for new server owners, and advanced options for experienced ones."
             }
         },
         "faq": {
@@ -258,7 +289,8 @@
                 "notOffline": "Server must be offline",
                 "format": "Invalid world (invalid or unsupported zip format)",
                 "levelnameMissing": "Invalid world (levelname.txt missing)",
-                "specialCharacters": "Invalid world (level name must not consist of only special characters)"
+                "specialCharacters": "Invalid world (level name must not consist of only special characters)",
+                "tooBig": "Invalid world (too big: maximum 5 GB)"
             },
             "note": "This is irreversible and will overwrite your world!"
         }
