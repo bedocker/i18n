@@ -1,4 +1,22 @@
 {
+    "titles": {
+        "index": "Bedocker | Minecraft Bedrock Server Hosting",
+        "signin": "Anmelden | Bedocker",
+        "signup": "Registrieren | Bedocker",
+        "user": "Nutzer | Bedocker",
+        "404": "404 | Bedocker",
+        "legal": {
+            "privacy": "Datenschutzrichtlinie | Bedocker",
+            "tos": "AGB | Bedocker"
+        },
+        "server": {
+            "index": "Server Übersicht | Bedocker",
+            "console": "Server Konsole | Bedocker",
+            "settings": "Server Einstellungen | Bedocker",
+            "importWorld": "Welt importieren | Bedocker",
+            "setup": "Server Einrichtung | Bedocker"
+        }
+    },
     "nav": {
         "signupin": "Registrieren",
         "back": "Zurück",
@@ -9,11 +27,24 @@
     },
     "landing": {
         "hero": {
-            "title": "Bedrock Server, <span class=\"green\">für dich</span>",
+            "title": "Deine Welt, <span class=\"green\">immer da</span>",
             "description": "Starte kostenlos und erstelle deinen persönlichen Minecraft Bedrock Server. Eingerichtet in 5 Minuten. Garantiert.",
             "buttons": {
-                "getstarted": "Loslegen",
-                "learnmore": "Mehr erfahren"
+                "createServer": "Meinen Server erstellen"
+            }
+        },
+        "features": {
+            "setup": {
+                "title": "Schnelle Einrichtung",
+                "description": "Wir stellen deinen Server innerhalb weniger Minuten bereit, nachdem du ihn erstellt hast."
+            },
+            "speed": {
+                "title": "Blitzschnell",
+                "description": "Lag ist ein Problem aus der Vergangenheit mit unserer erstklassigen Serverhardware."
+            },
+            "panel": {
+                "title": "Einfaches Panel",
+                "description": "Intuitiv und einfach für neue Serverbesitzer und fortgeschrittene Optionen für erfahrene Serverbesitzer."
             }
         },
         "faq": {
@@ -258,7 +289,8 @@
                 "notOffline": "Server muss offline sein",
                 "format": "Ungültige Welt (ungültiges oder nicht unterstütztes Zip-Format)",
                 "levelnameMissing": "Ungültige Welt (levelname.txt fehlt)",
-                "specialCharacters": "Ungültige Welt (Weltname darf nicht nur aus Sonderzeichen bestehen)"
+                "specialCharacters": "Ungültige Welt (Weltname darf nicht nur aus Sonderzeichen bestehen)",
+                "tooBig": "Ungültige Welt (zu groß: maximal 5 GB)"
             },
             "note": "Dies ist unumkehrbar und wird deine Welt überschreiben!"
         }
