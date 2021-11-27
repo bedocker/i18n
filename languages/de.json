@@ -34,6 +34,7 @@
             }
         },
         "features": {
+            "title": "Warum wir?",
             "setup": {
                 "title": "Schnelle Einrichtung",
                 "description": "Wir stellen deinen Server innerhalb weniger Minuten bereit, nachdem du ihn erstellt hast."
