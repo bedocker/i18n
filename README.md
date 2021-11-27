@@ -1,6 +1,6 @@
 <div align="center">
     <h1 align="center">Bedocker i18n</h1>
-    <img alt="Languages" src="https://img.shields.io/badge/languages-1-success?style=for-the-badge">
+    <img alt="Languages" src="https://img.shields.io/badge/languages-2-success?style=for-the-badge">
     <img alt="Contributors" src="https://img.shields.io/github/contributors/bedocker/i18n?style=for-the-badge">
     <br>
 </div>
