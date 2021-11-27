@@ -34,6 +34,7 @@
             }
         },
         "features": {
+            "title": "Why us?",
             "setup": {
                 "title": "Quick setup",
                 "description": "We will deploy your server within minutes of you creating it."
