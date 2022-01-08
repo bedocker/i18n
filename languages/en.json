@@ -119,7 +119,7 @@
     },
     "setup": {
         "title": "Setup",
-        "description": "Welcome to Bedocker! These default options will work for most people. Look through them and change them to your needs, and once you're done, click set up.",
+        "description": "There's just one last step to get your server up & running. Change the server configuration below, and once you're done, click on create, and your server will be in your hands.",
         "name": {
             "title": "Name",
             "placeholder": "A Bedocker Server"
