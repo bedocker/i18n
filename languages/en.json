@@ -119,7 +119,7 @@
     },
     "setup": {
         "title": "Setup",
-        "description": "There's just one last step to get your server up & running. Change the server configuration below, and once you're done, click on create, and your server will be in your hands.",
+        "description": "Welcome to Bedocker! These default options will work for most people. Look through them and change them to your needs, and once you're done, click set up.",
         "name": {
             "title": "Name",
             "placeholder": "A Bedocker Server"
@@ -229,7 +229,8 @@
         "status": {
             "online": "Online",
             "offline": "Offline",
-            "starting": "Starting"
+            "starting": "Starting",
+            "hibernating": "Online (<svg width=\"24\" height=\"24\" xmlns=\"http://www.w3.org/2000/svg\"><path fill=\"none\" d=\"M0 0h24v24H0z\"/><path d=\"M11 11v2l-5.327 6H11v2H3v-2l5.326-6H3v-2h8zm10-8v2l-5.327 6H21v2h-8v-2l5.326-6H13V3h8z\"/></svg>)"
         },
         "index": {
             "table": {
@@ -264,6 +265,7 @@
                 "run": "Run command"
             },
             "messages": {
+                "hibernating": "[INFO] Server is hibernating, awaiting join...",
                 "offline": "[ERROR] Server is not running"
             }
         },
@@ -271,6 +273,7 @@
             "buttons": {
                 "save": "Save changes",
                 "importWorld": "Import world",
+                "exportWorld": "Export world",
                 "delete": {
                     "1": "Delete server",
                     "2": "Are you sure?",
@@ -293,7 +296,10 @@
                 "specialCharacters": "Invalid world (level name must not consist of only special characters)",
                 "tooBig": "Invalid world (too big: maximum 5 GB)"
             },
-            "note": "This is irreversible and will overwrite your world!"
+            "note": {
+                "irreversible": "This is irreversible and will overwrite your world!",
+                "inventory": "If you are importing a singleplayer world, your inventory won't be transfered. Put your belongings into a container to keep them."
+            }
         }
     },
     "404": {
